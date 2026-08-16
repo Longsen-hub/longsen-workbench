@@ -33,6 +33,7 @@
 | 运营方案生成器 `skills/ops-plan-generator/` | ops-plan-generator-pro | ops-plan-generator-lite | 12 部分运营方案：10风格×11类型×10平台×15公式 |
 | 抖音账号健康体检 `skills/douyin-account-diagnosis/` | douyin-account-diagnosis-pro | douyin-account-diagnosis-lite | 四维度 100 分制诊断：体量/内容/活跃/平台指数 |
 | 评论区健康诊断 `skills/comment-diagnosis/` | comment-diagnosis-engine | comment-diagnosis-lite | ABSA 方面级情感分析：11方面×5级情感+行业包 |
+| 简历优化 `skills/resume-optimizer/` | resume-optimizer-pro | resume-optimizer-lite | 14 步流水线：硬门槛门禁/五维评分/双agent评审/ATS检查/面试包/投递追踪 |
 
 > SkillHub 账号：@user_7c5d7975
 
