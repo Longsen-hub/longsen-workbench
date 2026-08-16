@@ -994,7 +994,7 @@
       </div>
       <div class="ops-label">④ 绑定对标账号（核心 · 方案将模仿该账号的公式/内容矩阵/策略/数据生成）</div>
       <div class="ops-grid" id="opsAccts"></div>
-      <div class="ops-label">⑤ 对标竞品雷达（31号板块六真实数据）</div>
+      <div class="ops-label">⑤ 对标竞品雷达（账号库板块六真实数据）</div>
       <div class="ops-grid" id="opsRivals"></div>
       <button class="btn btn-primary" onclick="genPlan()">⚡ 一键生成运营方案</button>
     </div>
@@ -1020,7 +1020,7 @@
 <div class="wb-view" id="v-viral">
 <!-- ===== v9 Module ④: 爆款复刻中心（P0） ===== -->
     <div class="section-header">
-      <div class="section-title"><span class="dot dot-orange"></span>爆款视频复刻中心 <span class="badge-p0">P0</span><span class="section-sub">本月TOP3 · 31号板块9蒸馏</span></div>
+      <div class="section-title"><span class="dot dot-orange"></span>爆款视频复刻中心 <span class="badge-p0">P0</span><span class="section-sub">本月TOP3 · 账号库板块9蒸馏</span></div>
     </div>
     <div class="viral-grid">
       <div class="viral-card fade-in stagger-1">
@@ -1069,7 +1069,7 @@
 <div class="wb-view" id="v-competitor">
 <!-- ===== v9 Module ⑤: 对标竞品雷达（P1） ===== -->
     <div class="section-header">
-      <div class="section-title"><span class="dot dot-blue"></span>对标竞品雷达 <span class="badge-p1">P1</span><span class="section-sub">同赛道TOP5 · 31号板块6</span></div>
+      <div class="section-title"><span class="dot dot-blue"></span>对标竞品雷达 <span class="badge-p1">P1</span><span class="section-sub">同赛道TOP5 · 账号库板块6</span></div>
     </div>
     <div class="two-col">
       <div class="panel fade-in stagger-1">
@@ -1082,7 +1082,7 @@
       </div>
     </div>
     <div class="panel fade-in stagger-3">
-      <div class="panel-title">📡 同赛道真实竞品（31号板块六）</div>
+      <div class="panel-title">📡 同赛道真实竞品（账号库板块六）</div>
       <div id="rivalRealList"><div class="gap-item">加载中…</div></div>
     </div>
 
@@ -1091,7 +1091,7 @@
 <div class="wb-view" id="v-formula">
 <!-- ===== v9 Module ⑥: 标题公式库（P1） ===== -->
     <div class="section-header">
-      <div class="section-title"><span class="dot dot-green"></span>标题公式库 <span class="badge-p1">P1</span><span class="section-sub">本月高互动句式TOP4 · 31号板块7</span></div>
+      <div class="section-title"><span class="dot dot-green"></span>标题公式库 <span class="badge-p1">P1</span><span class="section-sub">本月高互动句式TOP4 · 账号库板块7</span></div>
     </div>
     <div class="formula-list">
       <div id="formulaRealList"><div class="formula-item"><div class="formula-info"><div class="formula-name">加载中…</div></div></div></div>
@@ -1102,7 +1102,7 @@
 <div class="wb-view" id="v-strategy">
 <!-- ===== v9 Module ⑦: AI策略建议（P2） ===== -->
     <div class="section-header">
-      <div class="section-title"><span class="dot dot-purple"></span>AI策略建议 <span class="badge-p2">P2</span><span class="section-sub">基于你的数据生成 · 31号板块8</span></div>
+      <div class="section-title"><span class="dot dot-purple"></span>AI策略建议 <span class="badge-p2">P2</span><span class="section-sub">基于你的数据生成 · 账号库板块8</span></div>
     </div>
     <div class="strategy-grid">
       <div class="strategy-card fade-in stagger-1">
@@ -2080,9 +2080,9 @@
         ${indHtml}
         ${rvHtml}
         <div class="ops-res-card"><h3>🔥 真实热点<span class="ops-real">真实数据</span></h3>${hot}</div>
-        <div class="ops-res-card"><h3>📐 爆款标题公式（31号）<span class="ops-real">真实数据</span></h3>${fm}</div>
+        <div class="ops-res-card"><h3>📐 爆款标题公式（账号库）<span class="ops-real">真实数据</span></h3>${fm}</div>
         ${stHtml}
-        <div class="ops-res-card"><h3>🏆 对标爆款案例（31号）<span class="ops-real">真实数据</span></h3>${cs}</div>
+        <div class="ops-res-card"><h3>🏆 对标爆款案例（账号库）<span class="ops-real">真实数据</span></h3>${cs}</div>
         <div class="ops-res-card"><h3>🚀 发布策略</h3><div class="ops-copy">${esc(d.strategy)}</div></div>`;
       document.getElementById('opsResult').innerHTML = html;
       document.getElementById('opsResult').scrollIntoView({behavior:'smooth'});
@@ -2124,7 +2124,7 @@
             <button class="btn-sm" onclick="toast('📋 已复制（真实数据）')">复制</button>
           </div>`).join('');
         }
-        // 4. 生成器账号动态化（与工作台同源：31号账号库 + 我的账号）
+        // 4. 生成器账号动态化（与工作台同源：账号库 + 我的账号）
         if (d.accounts && d.accounts.length) {
           const opts = [{name:'不指定',source:''}].concat(d.accounts.map(a => ({name:a.name, source:a.source||''})));
           const pb = document.getElementById('opsAccts');

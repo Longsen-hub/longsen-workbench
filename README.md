@@ -22,7 +22,19 @@
 - 单文件零依赖 HTML（前端）+ Mock 数据层（静态部署可运行）
 - ECharts 图表（CDN）
 - 深蓝底隆森品牌风格 · 手机 Safari 适配
-- 零依赖部署：`python3 -m http.server 8082` 即可本地运行
+- 零依赖部署：`python3 -m http.server 8000` 即可本地运行
+
+## 内置 Skill（与 SkillHub 同步发布）
+
+工作台沉淀的三个可复用能力，已拆为独立 Skill 同步上架（GitHub 仓库 ↔ SkillHub 双平台）：
+
+| Skill | 全能版（付费） | 免费版 | 说明 |
+|:---|:---|:---|:---|
+| 运营方案生成器 `skills/ops-plan-generator/` | ops-plan-generator-pro | ops-plan-generator-lite | 12 部分运营方案：10风格×11类型×10平台×15公式 |
+| 抖音账号健康体检 `skills/douyin-account-diagnosis/` | douyin-account-diagnosis-pro | douyin-account-diagnosis-lite | 四维度 100 分制诊断：体量/内容/活跃/平台指数 |
+| 评论区健康诊断 `skills/comment-diagnosis/` | comment-diagnosis-engine | comment-diagnosis-lite | ABSA 方面级情感分析：11方面×5级情感+行业包 |
+
+> SkillHub 账号：@user_7c5d7975
 
 ## 在线预览
 
