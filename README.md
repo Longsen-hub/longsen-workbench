@@ -44,3 +44,32 @@ GitHub Pages：https://Longsen-hub.github.io/longsen-workbench/
 ## License
 
 MIT
+
+---
+
+## Quick Start
+
+```bash
+# 零依赖，任选其一
+python3 -m http.server 8000    # 本地起服务
+# 或直接用浏览器打开 index.html
+```
+
+## Project Structure
+
+```
+.
+├── index.html      # 主应用（单页，零依赖）
+├── skills/         # 技能包目录（运营方案生成器/账号诊断/评论诊断等）
+└── README.md
+```
+
+## Tech Stack
+
+- 纯 HTML/CSS/JavaScript 单页应用
+- 零第三方依赖（无需构建，无需安装）
+- 可静态部署到任意 Web 服务器 / GitHub Pages
+
+## License
+
+[MIT](LICENSE)
